@@ -1,0 +1,18 @@
+### Original CATAAS endpoint
+GET http://localhost:8080/api/cat/space
+Accept: application/json
+
+
+### Fetch from both APIs and store the result
+POST http://localhost:8080/api/content/space
+Accept: application/json
+
+
+### Summary of stored content
+GET http://localhost:8080/api/content/summary
+Accept: application/json
+
+
+### CATAAS error handling test
+GET http://localhost:8080/api/cat/funny cat
+Accept: application/json
